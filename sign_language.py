@@ -9,7 +9,7 @@ from os.path import isdir, join
 def load_data(container_path='datasets', folders=['A', 'B', 'C'],
               size=2000, test_split=0.2, seed=0):
     """
-    Loads sign language dataset.
+    Loads sign language dataset
     """
     
     filenames, labels = [], []
